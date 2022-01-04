@@ -8,63 +8,152 @@
   
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 <body>
+  <header>
+    <div class="container">
+      <nav class="flex">
+        <img src="./images/logo.svg" alt="logo" class="logo">
+        <button class="btn">Try It Free</button>
+      </nav>
 
-  Try It Free
+      <div class="flex">
+        <div>
+          <h1>Build The Community Your Fans Will Love</h1>
 
-  Build The Community Your Fans Will Love
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion.</p> 
+        
+          <button class="btn btn-primary">Get Started For Free</button>
+        </div>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+        <div>
+          <img src="./images/illustration-mockups.svg" alt="mockups">
+        </div>
+      </div>
+    </div>
+  </header>
 
-  Get Started For Free
+  <main>
+    <div class="container">
+      <div class="box flex">
+        <div>
+          <h2>Grow Together</h2>
+          
+          <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
 
-  Grow Together
+        <div>
+          <img src="./images/illustration-grow-together.svg" alt="grow-together">
+        </div>
+      </div>
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+      <div class="box flex">
+        <div class="order1">
+          <h2>Flowing Conversations</h2>
+      
+          <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+          have just-in-time loading for a more natural flow.</p>
+        </div>
 
-  Flowing Conversations
+        <div>
+          <img src="./images/illustration-flowing-conversation.svg" alt="flowing-conversation">
+        </div> 
+      </div>
 
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
+      <div class="box flex">
+        <div>
+          <h2>Your Users</h2>
+      
+          <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
+          This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
 
-  Your Users
+        <div>
+          <img src="./images/illustration-your-users.svg" alt="users">
+        </div> 
+      </div>
+    </div>
+  </main>
 
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
+  <div class="container center">
+    <div class="box small-box">
+      <h2>Ready To Build Your Community?</h2>
 
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
+      <button class="btn btn-primary btn-big">Get Started For Free</button>
+    </div>
+  </div>
+  
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <div class="container">
+      <img src="./images/logo-white.svg" alt="logo">
+      <div class="flex align-start">
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua
+          </li>
+
+          <li>
+            +1-543-123-4567
+          </li>
+
+          <li>
+            example@huddle.com
+          </li>
+        </ul>
+
+        <ul>
+          <li>About Us</li>
+
+          <li>What we do</li>
+
+          <li>FAQ</li>
+        </ul>
+
+        <ul>
+          <li>Careers</li>
+
+          <li>Blog</li>
+
+          <li>Contact Us</li>
+        </ul>
+
+        <ul class="flex">
+          <li>
+            <a class="circle" href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+
+          <li>
+            <a class="circle" href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+
+          <li>
+            <a class="circle" href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <p>
+        &copy; Copyright 2018 Huddle. All rights reserved.
+      </p>
+      
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.github.com/SazedWorldbringer">Sazed</a>.
+      </p>
+    </div>
   </footer>
+
 </body>
 </html>
